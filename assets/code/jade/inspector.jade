@@ -1,0 +1,21 @@
+.container
+  .page-header
+    h1
+      | Input
+      small choose an API call to make
+  .form-horizontal
+    .control-group
+      label.control-label(for='_module') Module
+      .controls
+        select#_module
+    .control-group
+      label.control-label(for='_method') Method
+      .controls
+        select#_method
+    #_actions.form-actions
+      button#_run.btn.btn-primary(type='submit') Run!
+  .page-header
+    h1
+      | Output
+      small results from the API call, most recent at the top
+  #_output

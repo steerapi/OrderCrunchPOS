@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">OrderCrunch POS</string>
+
+    <string-array name="modules">
+        <item>io.trigger.forge.android.modules.inspector</item>
+        <item>io.trigger.forge.android.modules.stario</item>
+    </string-array>
+
+</resources>
